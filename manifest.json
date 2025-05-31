@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Local Map Pack Scraper",
+  "description": "Extract business names, websites, and phone numbers from Google Local Pack for easy copy-paste.",
+  "version": "5.2",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://www.google.com/*",
+    "https://www.google.co.uk/*"
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

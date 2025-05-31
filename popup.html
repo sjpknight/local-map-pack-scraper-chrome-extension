@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Map Pack Extractor</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 15px; width: 500px; }
+    h1 { font-size: 18px; margin-bottom: 10px; }
+    button { margin: 5px 0; padding: 10px; font-size: 16px; width: 100%; }
+    #results { width: 100%; height: 300px; margin-top: 10px; font-family: monospace; }
+    #status { margin-top: 10px; color: green; font-weight: bold; }
+    #footer { margin-top: 20px; font-size: 12px; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>Map Pack Extractor</h1>
+  <button id="scan-members">Scan Listings</button>
+  <button id="copy-all" disabled>Copy All</button>
+  <textarea id="results" readonly></textarea>
+  <div id="status"></div>
+  <div id="footer">
+    <a href="https://blackcountrytechsupport.co.uk" target="_blank">Black Country Tech Support</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
